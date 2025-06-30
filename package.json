@@ -3,7 +3,6 @@
   "version": "2.0.0",
   "description": "PWA POS Backend API - Separate Netlify Deployment",
   "main": "netlify/functions/api.js",
-  "type": "module",
   "scripts": {
     "build": "npm install"
   },
@@ -14,6 +13,7 @@
     "serverless-http": "^3.2.0",
     "axios": "^1.10.0",
     "multer": "^2.0.0",
-    "nodemailer": "^7.0.3"
+    "nodemailer": "^7.0.3",
+    "node-fetch": "^2.6.7"
   }
 }
